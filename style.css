@@ -29,9 +29,11 @@ body {
     background-color: #ddd;
     color: #000;
     height: 77px;
+    transition: 1s;
 }
 
 .side-nav {
+    display: block;
     height: 100%;
     width: 0;
     position: fixed;
@@ -52,11 +54,13 @@ body {
     color: aquamarine;
     display: block;
     transition: 0.5s;
-    height: 65px;
+    height: 30px;
 }
 
 .side-nav a:hover {
     color: aqua;
+    background-color: cadetblue;
+    transition: 1s;
 }
 
 .side-nav .btn-close {
